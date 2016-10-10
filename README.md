@@ -15,3 +15,10 @@ Custom LSD (Least Significant Digit) Steganography algorithm that can encode 1 c
     Split 102 into 1  0  2. Replace the least significant digit in the respective color channel with these values.
   
    So we end up with a new pixel containing the values (15<B>1</B>, 22<B>0</B>, 00<B>2</B>)
+   
+<B>Useage:<B>
+
+    ImageMessage.py -e [imagename] [message.txt]  (encode message)
+    
+    ImageMessage.py -d [imagename] [output.txt]   (decode message)
+               
