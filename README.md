@@ -22,3 +22,13 @@ Custom LSD (Least Significant Digit) Steganography algorithm that can encode 1 c
     
     ImageMessage.py -d [imagename] [output.txt]   (decode message)
                
+
+#Example
+
+Original Image
+
+![Alt Text](https://github.com/mgiaramita/Image-Message/blob/master/imgs/mona.jpg)
+
+Output containing the entirety of Shakespeare's play Romeo and Juliet
+
+![Alt Text](https://github.com/mgiaramita/Image-Message/blob/master/imgs/out.png)
