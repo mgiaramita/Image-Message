@@ -26,7 +26,7 @@ Custom LSD (Least Significant Digit) Steganography algorithm that can encode 1 c
 
 #Example
 
-Original Image
+Original Image (400x400)
 
 ![Alt Text](https://github.com/mgiaramita/Image-Message/blob/master/imgs/mona.jpg)
 
