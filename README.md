@@ -30,6 +30,6 @@ Original Image
 
 ![Alt Text](https://github.com/mgiaramita/Image-Message/blob/master/imgs/mona.jpg)
 
-Output containing the entirety of Shakespeare's play Romeo and Juliet
+Output containing the entirety of Shakespeare's Romeo and Juliet
 
 ![Alt Text](https://github.com/mgiaramita/Image-Message/blob/master/imgs/out.png)
