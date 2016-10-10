@@ -16,7 +16,7 @@ Custom LSD (Least Significant Digit) Steganography algorithm that can encode 1 c
   
    So we end up with a new pixel containing the values (15<B>1</B>, 22<B>0</B>, 00<B>2</B>)
    
-<B>Useage:<B>
+<B>Usage:<B>
 
     ImageMessage.py -e [imagename] [message.txt]  (encode message)
     
