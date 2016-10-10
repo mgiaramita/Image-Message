@@ -65,7 +65,7 @@ def main():
 		image = sys.argv[2]
 		file = sys.argv[3]
 	except IndexError:
-		print "Invalid args. Correct useage:"
+		print "Invalid args. Correct usage:"
 		print "  ImageMessage -[e,d] <imagename> <in/output filename>"
 		return -1
 
@@ -80,7 +80,7 @@ def main():
 		except AttributeError:
 			print "Invalid image name"
 	else:
-		print "Invalid args. Correct useage:"
+		print "Invalid args. Correct usage:"
 		print "  ImageMessage -[e,d] <imagename> <in/output filename>"
 
 if __name__ == "__main__":
