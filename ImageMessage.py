@@ -15,10 +15,16 @@ def encode(image, msg):
 			c = ord(ms[(i * width) + j])
 
 			p3 = pix[j,i][2] - (pix[j,i][2] % 10) + (c % 10)
+			if p3 > 255:
+				p3 -= 10
 			c /= 10
 			p2 = pix[j,i][1] - (pix[j,i][1] % 10) + (c % 10)
+			if p2 > 255:
+				p2 -= 10
 			c /= 10
 			p1 = pix[j,i][0] - (pix[j,i][0] % 10) + c
+			if p1 > 255:
+				p1 -= 10
 
 			pix[j,i] = (p1,p2,p3)
 
