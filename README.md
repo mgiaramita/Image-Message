@@ -1,3 +1,5 @@
+[![License: MIT](https://black.readthedocs.io/en/stable/_static/license.svg)](https://github.com/psf/black/blob/main/LICENSE)
+
 # Image-Message
 Custom LSD (Least Significant Digit) Steganography algorithm that can encode 1 character per pixel.
 
