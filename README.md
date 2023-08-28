@@ -18,8 +18,11 @@ Split 102 into three seperate digits 1  0  2.
 
 Replace the least significant digit in the respective color channel with these values.
 
-So we end up with a new pixel containing the values (15<B>1</B>, 22<B>0</B>, 00<B>2</B>)
+So we end up with a new pixel containing the values (151, 220, 002)
 ```
+Starting Pixel: (156, 222, 000)
+Byte to incode: 102
+Encoded Pixel: (15<B>1</B>, 22<B>0</B>, 00<B>2</B>)
 
 <B>Usage:<B>
 ```
