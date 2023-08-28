@@ -1,5 +1,5 @@
-import Image
 import sys
+from PIL import Image
 
 
 def encode(image, msg):
@@ -17,11 +17,11 @@ def encode(image, msg):
             p3 = pix[j, i][2] - (pix[j, i][2] % 10) + (c % 10)
             if p3 > 255:
                 p3 -= 10
-            c /= 10
+            c = int(c / 10)
             p2 = pix[j, i][1] - (pix[j, i][1] % 10) + (c % 10)
             if p2 > 255:
                 p2 -= 10
-            c /= 10
+            c = int(c / 10)
             p1 = pix[j, i][0] - (pix[j, i][0] % 10) + c
             if p1 > 255:
                 p1 -= 10
@@ -63,8 +63,6 @@ def decode(image, out):
         if breakFlag:
             break
 
-    # f = open(out, 'w')
-    # print >> f, msg
     with open(out, "w") as f:
         f.write(msg)
 
